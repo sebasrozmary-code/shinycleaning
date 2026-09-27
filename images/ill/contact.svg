@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" width="320" height="400" role="img">
+<defs>
+  <filter id="w" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="21" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</defs>
+<g filter="url(#w)" fill="none" stroke="#1e2b31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="160" cy="220" rx="130" ry="170" fill="#d9f3f1" stroke="none"/>
+<rect x="80" y="30" width="160" height="340" rx="24" fill="#1e2b31" stroke="#1e2b31" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="92" y="54" width="136" height="292" rx="12" fill="#ffffff" stroke="#1e2b31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="130" y="40" width="60" height="6" rx="3" fill="#4b5b62" stroke="#1e2b31" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110,90 L200,90 Q210,90 210,100 L210,160 Q210,170 200,170 L124,170 L108,184 L110,170 Q100,170 100,160 L100,100 Q100,90 110,90Z" fill="#e3ebec" stroke="#1e2b31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="112" y="100" width="86" height="58" rx="4" fill="#cdeefb" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M116,152 L140,124 L160,142 L172,130 L194,152Z" fill="#86c94a" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="180" cy="114" r="7" fill="#f6bf45" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M130,200 L210,200 Q222,200 222,212 L222,262 Q222,274 210,274 L214,290 L196,274 L130,274 Q118,274 118,262 L118,212 Q118,200 130,200Z" fill="#17a2a2" stroke="#1e2b31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M182,224 Q160,216 154,236 Q152,258 176,260 M146,234 L172,234 M144,246 L170,246" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M200,208 Q200,216 208,216 Q200,216 200,224 Q200,216 192,216 Q200,216 200,208Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="104" y="304" width="96" height="24" rx="12" fill="#e3ebec" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="214" cy="316" r="12" fill="#86c94a" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M208,316 L220,316 M216,311 L221,316 L216,321" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M270,68 Q270,80 282,80 Q270,80 270,92 Q270,80 258,80 Q270,80 270,68Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M280,192 Q280,200 288,200 Q280,200 280,208 Q280,200 272,200 Q280,200 280,192Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50,111 Q50,120 59,120 Q50,120 50,129 Q50,120 41,120 Q50,120 50,111Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40,293 Q40,300 47,300 Q40,300 40,307 Q40,300 33,300 Q40,300 40,293Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M275,324 Q275,330 281,330 Q275,330 275,336 Q275,330 269,330 Q275,330 275,324Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="60" cy="60" r="4" fill="#7dcdf0" stroke="#1e2b31" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="290" cy="270" r="3.5" fill="#7dcdf0" stroke="#1e2b31" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

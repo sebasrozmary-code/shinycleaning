@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+<defs>
+  <filter id="w" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="32" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="1.6" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</defs>
+<g filter="url(#w)" fill="none" stroke="#1e2b31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="60" cy="62" rx="46" ry="44" fill="#d9f3f1" stroke="none"/><path d="M24,60 L60,26 L96,60" fill="none" stroke="#1e2b31" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M32,58 L32,98 L88,98 L88,58" fill="#f5ead7" stroke="#1e2b31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><path d="M30,60 L60,30 L90,60Z" fill="#0f7f7f" stroke="#1e2b31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><rect x="52" y="74" width="16" height="24" rx="2" fill="#17a2a2" stroke="#1e2b31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="38" y="66" width="12" height="12" rx="1" fill="#cdeefb" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="70" y="66" width="12" height="12" rx="1" fill="#cdeefb" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M18,32 Q18,40 26,40 Q18,40 18,48 Q18,40 10,40 Q18,40 18,32Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M104,33 Q104,42 113,42 Q104,42 104,51 Q104,42 95,42 Q104,42 104,33Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M100,90 Q100,96 106,96 Q100,96 100,102 Q100,96 94,96 Q100,96 100,90Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20,86 Q20,92 26,92 Q20,92 20,98 Q20,92 14,92 Q20,92 20,86Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M60,5 Q60,12 67,12 Q60,12 60,19 Q60,12 53,12 Q60,12 60,5Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

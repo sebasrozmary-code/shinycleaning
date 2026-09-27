@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+<defs>
+  <filter id="w" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="26" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="1.6" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</defs>
+<g filter="url(#w)" fill="none" stroke="#1e2b31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="60" cy="62" rx="46" ry="44" fill="#d9f3f1" stroke="none"/><rect x="30" y="14" width="46" height="92" rx="10" fill="#1e2b31" stroke="#1e2b31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="24" width="36" height="70" rx="5" fill="#ffffff" stroke="#1e2b31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M62,44 L98,44 Q104,44 104,50 L104,72 Q104,78 98,78 L70,78 L62,88 L64,78 Q56,78 56,72 L56,50 Q56,44 62,44Z" fill="#17a2a2" stroke="#1e2b31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><rect x="66" y="52" width="28" height="18" rx="2" fill="#cdeefb" stroke="#1e2b31" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M68,68 L76,58 L84,66 L92,58 L92,68Z" fill="#86c94a" stroke="#1e2b31" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M24,33 Q24,40 31,40 Q24,40 24,47 Q24,40 17,40 Q24,40 24,33Z" fill="#f6bf45" stroke="#1e2b31" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
