@@ -454,6 +454,41 @@ def b2b_kantoor():
     return svg(400, 380, "\n".join(b))
 FILES["bedrijven-kantoor.svg"] = b2b_kantoor
 
+# ---- VME: appartementsgebouw met inkomhal ------------------------------
+def d_vme():
+    b = [blob(200, 190, 185, 120, MINT)]
+    # gebouw
+    b.append(rect(70, 30, 200, 250, CREAM, rx=4, sw=3.5))
+    b.append(rect(70, 30, 200, 18, TEAL_D, rx=3))
+    for r in range(3):
+        for c in range(3):
+            x = 88 + c * 60; y = 62 + r * 58
+            b.append(rect(x, y, 44, 40, BLUE_L, rx=2, sw=2.4))
+            if (r + c) % 2 == 0: b.append(shine(x, y, 44, 40))
+            b.append(rect(x - 4, y + 38, 52, 6, GREY, rx=2, sw=1.8))      # balkonrandje
+    # inkomhal met glazen deur
+    b.append(rect(140, 234, 60, 46, TEAL_D, rx=3))
+    b.append(rect(148, 240, 44, 40, BLUE_L, rx=2, sw=2)); b.append(shine(148, 240, 44, 40))
+    b.append(line(170, 240, 170, 280, TEAL_D, 3))
+    b.append(rect(100, 248, 26, 18, GREY, rx=2, sw=2))                     # brievenbussen
+    b.append(line(100, 257, 126, 257, INK, 1.5)); b.append(line(113, 248, 113, 266, INK, 1.5))
+    b.append(rect(40, 280, 320, 12, GREY_D, rx=3))
+    # emmer + zwabber rechts
+    b.append(bucket(282, 218, 70, 60, TEAL))
+    b.append(line(300, 238, 330, 110, YEL, 7)); b.append(line(300, 238, 330, 110, INK, 2))
+    b.append(path("M318,110 L344,110 Q352,120 348,136 L336,136 Q330,122 318,110Z", fill=GREY_D))
+    # klembord met vinkjes (rapport voor de syndicus)
+    b.append(f'<g transform="translate(18,150) rotate(-8)">'
+             f'<rect x="0" y="0" width="54" height="70" rx="6" fill="{WHITE}" {stroke(3)}/>'
+             f'<rect x="16" y="-6" width="22" height="12" rx="3" fill="{YEL}" {stroke(2.2)}/>'
+             f'<path d="M10,22 L15,27 L24,16 M10,40 L15,45 L24,34 M10,58 L15,63 L24,52" {stroke(2.6, TEAL)}/>'
+             f'<path d="M30,22 L44,22 M30,40 L44,40 M30,58 L44,58" {stroke(2.4, GREY_D)}/>'
+             f'</g>')
+    for (x, y, s) in [(300, 60, 11), (330, 170, 7), (40, 60, 8), (365, 250, 7), (250, 20, 6)]:
+        b.append(sparkle(x, y, s))
+    return svg(400, 320, "\n".join(b))
+FILES["dienst-vme.svg"] = d_vme
+
 # ---- OVER ONS: het busje ----------------------------------------------
 def busje():
     b = [blob(270, 230, 250, 90, MINT)]

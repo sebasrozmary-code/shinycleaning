@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <url>
-    <loc>https://www.shinycleaning-kempen.be/</loc>
-    <lastmod>2026-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.shinycleaning-kempen.be/"/>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.shinycleaning-kempen.be/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinycleaning-kempen.be/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinycleaning-kempen.be/"/>
-  </url>
-
-  <url>
-    <loc>https://www.shinycleaning-kempen.be/fr/</loc>
-    <lastmod>2026-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.shinycleaning-kempen.be/"/>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.shinycleaning-kempen.be/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinycleaning-kempen.be/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinycleaning-kempen.be/"/>
-  </url>
-
-  <url>
-    <loc>https://www.shinycleaning-kempen.be/en/</loc>
-    <lastmod>2026-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.shinycleaning-kempen.be/"/>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.shinycleaning-kempen.be/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinycleaning-kempen.be/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinycleaning-kempen.be/"/>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.shinycleaning-kempen.be/</loc><lastmod>2026-09-27</lastmod><priority>1.0</priority><xhtml:link rel="alternate" hreflang="nl-be" href="https://www.shinycleaning-kempen.be/"/><xhtml:link rel="alternate" hreflang="fr-be" href="https://www.shinycleaning-kempen.be/fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.shinycleaning-kempen.be/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinycleaning-kempen.be/"/></url>
+  <url><loc>https://www.shinycleaning-kempen.be/fr/</loc><lastmod>2026-09-27</lastmod><priority>0.7</priority><xhtml:link rel="alternate" hreflang="nl-be" href="https://www.shinycleaning-kempen.be/"/><xhtml:link rel="alternate" hreflang="fr-be" href="https://www.shinycleaning-kempen.be/fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.shinycleaning-kempen.be/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinycleaning-kempen.be/"/></url>
+  <url><loc>https://www.shinycleaning-kempen.be/en/</loc><lastmod>2026-09-27</lastmod><priority>0.7</priority><xhtml:link rel="alternate" hreflang="nl-be" href="https://www.shinycleaning-kempen.be/"/><xhtml:link rel="alternate" hreflang="fr-be" href="https://www.shinycleaning-kempen.be/fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.shinycleaning-kempen.be/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinycleaning-kempen.be/"/></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/zonnepanelen-reinigen/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/dakgoot-reinigen/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/gevelreiniging/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/dakreiniging/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/terras-oprit-reinigen/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/tapijt-zetelreiniging/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/opleveringsschoonmaak/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/kantoorschoonmaak/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/gemeenschappelijke-delen/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/groene-aanslag-verwijderen/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/geel/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/mol/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/herentals/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/westerlo/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/laakdal/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/olen/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/meerhout/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/balen/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/dessel/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/retie/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/kasterlee/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/turnhout/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/heist-op-den-berg/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/herselt/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/beringen/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/diest/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/ruitenwasser/aarschot/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/prijzen/</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.shinycleaning-kempen.be/werkgebied/</loc><lastmod>2026-09-27</lastmod><priority>0.8</priority></url>
 </urlset>
