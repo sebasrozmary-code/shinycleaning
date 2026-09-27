@@ -4,6 +4,10 @@
    Alle kleuren en maten staan als custom properties bovenaan.
    ========================================================================== */
 
+/* Lettertypes uit het logo: Lobster (merknaam) en Open Sans (tekst). Zelf gehost, OFL-licentie. */
+@font-face { font-family: "Lobster"; src: url("fonts/lobster.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Open Sans"; src: url("fonts/opensans.woff2") format("woff2"); font-weight: 300 800; font-stretch: 75% 100%; font-display: swap; }
+
 :root {
   /* Merkkleuren, afgeleid van het logo */
   --teal-900: #0a4d4d;
@@ -28,8 +32,9 @@
   --wrap: 1180px;
   --gap: 1.5rem;
 
-  --font-body: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --font-head: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-body: "Open Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-head: "Open Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-brand: "Lobster", "Brush Script MT", cursive;
 }
 
 /* --------------------------------------------------------------- reset -- */
@@ -69,6 +74,7 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 
 /* -------------------------------------------------------------- buttons -- */
 .btn {
+  white-space: nowrap;
   display: inline-flex; align-items: center; justify-content: center; gap: .5em;
   padding: .7em 1.35em; border-radius: var(--radius); border: 2px solid transparent;
   font-weight: 700; font-size: 1rem; line-height: 1.2;
@@ -98,9 +104,10 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   min-height: 96px; flex-wrap: wrap;
 }
 .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: inherit; margin-right: auto; }
-.brand-logo { width: 92px; height: auto; }
-.brand-name { display: block; font-weight: 800; font-size: 1.1rem; color: var(--teal-700); }
-.brand-tag  { display: block; font-size: .74rem; color: var(--ink-soft); }
+.brand-mark { width: 40px; height: 40px; flex: none; }
+.brand-text { display: block; line-height: 1; white-space: nowrap; }
+.brand-name { display: block; font-family: var(--font-brand); font-weight: 400; font-size: 2.1rem; color: var(--teal-600); letter-spacing: 0; line-height: 1.05; }
+.brand-tag  { display: none; margin-top: .3rem; font-size: .66rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
 .header-cta { display: flex; align-items: center; gap: .5rem; }
 .btn-phone { font-weight: 700; white-space: nowrap; }
 
@@ -117,7 +124,7 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 .primary-nav { order: 3; width: 100%; display: none; }
 .primary-nav.is-open { display: block; }
 .nav-list { list-style: none; margin: 0; padding: .5rem 0 1rem; display: flex; flex-direction: column; gap: .2rem; }
-.nav-list a { display: block; padding: .55rem .25rem; text-decoration: none; color: var(--ink); font-weight: 600; }
+.nav-list a { display: block; padding: .55rem .25rem; text-decoration: none; color: var(--ink); font-weight: 600; white-space: nowrap; }
 .nav-list a:hover { color: var(--teal-700); }
 
 .nav-toggle {
@@ -127,19 +134,21 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 }
 .nav-toggle-bars { width: 18px; height: 2px; background: var(--ink); box-shadow: 0 6px 0 var(--ink), 0 -6px 0 var(--ink); }
 
-@media (min-width: 1000px) {
+@media (min-width: 1180px) {
   .nav-toggle { display: none; }
-  .brand-text { display: none; }
   .primary-nav { display: block; order: 0; width: auto; }
   .nav-list { flex-direction: row; padding: 0; gap: .9rem; }
   .nav-list a { padding: .3rem 0; font-size: .92rem; }
   .btn-phone .btn-phone-label { display: none; }
-  .header-inner { flex-wrap: nowrap; }
+  .header-inner { flex-wrap: nowrap; gap: 1rem; max-width: 1400px; }
+  .nav-list { gap: 1.05rem; }
+  .btn-phone { display: none; }
 }
 /* Onder 1000px: belknop en offerteknop zitten al in de vaste balk onderaan */
-@media (max-width: 999px) {
+@media (max-width: 1179px) {
   .header-cta { display: none; }
-  .brand-logo { width: 68px; }
+  .brand-name { font-size: 1.75rem; }
+  .brand-mark { width: 32px; height: 32px; }
   .header-inner { min-height: 80px; }
 }
 
@@ -148,7 +157,7 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 .hero-inner { display: grid; gap: clamp(2rem, 4vw, 3.5rem); align-items: center; }
 @media (min-width: 900px) { .hero-inner { grid-template-columns: 1.1fr .9fr; } }
 .lead { font-size: 1.15rem; color: var(--ink-soft); }
-.hl { color: var(--teal-600); }
+.hl { color: var(--teal-600); font-family: var(--font-brand); font-weight: 400; letter-spacing: 0; font-size: 1.12em; }
 .hero-points { list-style: none; padding: 0; margin: 1.5rem 0; display: grid; gap: .5rem; }
 .hero-points li { padding-left: 1.7em; position: relative; font-weight: 600; }
 .hero-points li::before {
@@ -390,3 +399,6 @@ a.contact-value:hover { color: var(--geel); }
   html { scroll-behavior: auto; }
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+@media (min-width: 1440px), (max-width: 1179px) { .brand-tag { display: block; } }
+@media (min-width: 1440px) { .btn-phone { display: inline-flex; } }
